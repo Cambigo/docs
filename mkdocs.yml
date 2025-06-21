@@ -28,7 +28,7 @@ theme:
 
 plugins:
   - search
-  - awesome-pages
+  - awesome-nav
 
 extra_css:
   - static/css/adjust.css

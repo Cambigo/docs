@@ -19,12 +19,12 @@ python -m pip install -r requirements.txt
 To execute the mkdocs notebook for development of content:
 
 ```shell
-mkdocs serve
+.venv/bin/python -m mkdocs serve
 ```
 The build the site for rendering through a web server, or to use with the FastAPI runner:
 
 ```shell
-mkdocs build
+.venv/bin/python -m build
 ```
 
 ## FastAPI
@@ -59,3 +59,11 @@ Encoding images for CSS:
 - You must replace the `content.png` and `topic.png` files with your own.
 - You can execute `python/encode.py >> marp/notebook.css` to append the encoded images to the css.
 
+## Updating Dependencies
+
+```shell
+pip list --outdated --format=columns \
+  | tail -n +3 \
+  | awk '{print $1}' \
+  | xargs -n1 pip install --upgrade
+```
