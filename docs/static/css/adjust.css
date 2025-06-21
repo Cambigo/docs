@@ -1,13 +1,14 @@
 
 /* Sets a common highlight color
 .md-content a {
-    color: #00833d;
+    color: #ea580c;
 }
 
 /* Sets a common background color */
 .md-header,
 .md-tabs {
-    background-color: #00833d;
+    background-color: #facc15;
+    color: #000000;
 }
 
 /* Adjusts the search result content */

@@ -6,9 +6,11 @@ repo_name: Cambigo/docs
 edit_uri: blob/main/docs/
 theme:
   name: material
+  logo: static/img/cambigo-logo-icon-bw.png
+  favicon: static/img/cambigo-logo-icon-bw.png
   # custom_dir: custom_templates
   palette:
-    primary: green
+    primary: brown
   features:
     - content.action.edit
     - content.action.view
