@@ -1,38 +1,12 @@
-
-/* Sets a common highlight color
 .md-content a {
     color: #ea580c;
 }
 
-/* Sets a common background color */
 .md-header,
 .md-tabs {
     background-color: #facc15;
     color: #000000;
 }
-
-
-
-/* Adjusts the search result content */
-.md-search-result .md-typeset {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    max-height: 200px;
-}
-
-/* Adjusts the width of the content to help with larger mermaid diagrams */
-.md-grid {
-    max-width: unset;
-    width: 100%;
-}
-
-div.mermaid {
-    width: unset !important;
-    width: 100%;
-} 
-
 
 .md-logo img {
     width: 50px !important;
