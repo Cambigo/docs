@@ -28,11 +28,6 @@ jobs:
     - name: Install dependencies.
       run: |
         pip install -r requirements.txt
-    - name: Build presentations.
-      run: |
-        npm install -g @marp-team/marp-cli
-        python scripts/marp.py
-        python scripts/plantuml.py
     - name: Run python script.
       run: |
         mkdocs build
