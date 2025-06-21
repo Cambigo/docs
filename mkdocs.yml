@@ -6,7 +6,7 @@ repo_name: Cambigo/docs
 edit_uri: blob/main/docs/
 theme:
   name: material
-  logo: static/img/cambigo-logo-icon-bw.png
+  logo: static/img/cambigo-logo-b.png
   favicon: static/img/cambigo-logo-icon-bw.png
   # custom_dir: custom_templates
   palette:

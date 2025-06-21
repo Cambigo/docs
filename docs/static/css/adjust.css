@@ -11,6 +11,8 @@
     color: #000000;
 }
 
+
+
 /* Adjusts the search result content */
 .md-search-result .md-typeset {
     display: -webkit-box;
@@ -30,3 +32,10 @@ div.mermaid {
     width: unset !important;
     width: 100%;
 } 
+
+
+.md-logo img {
+    width: 50px !important;
+    height: auto !important;
+
+}
