@@ -1,8 +1,8 @@
-site_name: Notebook
+site_name: Cambigo Documentation
 # docs_dir: ../your_docs_dir
-repo_url: https://github.com/ChrisCompton/notebook
-site_url: https://chriscompton.github.io/notebook/
-repo_name: ChrisCompton/notebook
+repo_url: https://github.com/Cambigo/docs
+site_url: https://docs.cambigo.com/
+repo_name: Cambigo/docs
 edit_uri: blob/main/docs/
 theme:
   name: material
