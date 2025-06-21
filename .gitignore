@@ -1,0 +1,9 @@
+*.pyc
+*.sqlite
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.egg-info/
+site/
+.vscode/

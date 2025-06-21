@@ -1,0 +1,66 @@
+site_name: Notebook
+# docs_dir: ../your_docs_dir
+repo_url: https://github.com/ChrisCompton/notebook
+site_url: https://chriscompton.github.io/notebook/
+repo_name: ChrisCompton/notebook
+edit_uri: blob/main/docs/
+theme:
+  name: material
+  # custom_dir: custom_templates
+  palette:
+    primary: green
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - toc.follow
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - sql
+
+plugins:
+  - search
+  - awesome-pages
+
+extra_css:
+  - static/css/adjust.css
+extra_javascript:
+  - static/js/main.js
+  - static/js/d3.v7.min.js
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+
+
+exclude_docs: |
+  __*.md
+draft_docs: |
+  DRAFT_*.md
+
+extra:
+  generator: false
