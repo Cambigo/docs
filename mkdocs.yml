@@ -6,8 +6,8 @@ repo_name: Cambigo/docs
 edit_uri: blob/main/docs/
 theme:
   name: material
-  logo: static/img/cambigo-logo-b.png
-  favicon: static/img/cambigo-logo-icon-bw.png
+  logo: static/img/logo/cambigo.png
+  favicon: static/img/logo/cambigo.png
   # custom_dir: custom_templates
   palette:
     primary: brown
@@ -27,6 +27,7 @@ theme:
     - yaml
     - python
     - sql
+    - json
 
 plugins:
   - search
@@ -34,9 +35,9 @@ plugins:
 
 extra_css:
   - static/css/adjust.css
-extra_javascript:
-  - static/js/main.js
-  - static/js/d3.v7.min.js
+# extra_javascript:
+#   - static/js/main.js
+#   - static/js/d3.v7.min.js
 
 markdown_extensions:
   - attr_list

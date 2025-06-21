@@ -2,14 +2,20 @@
     color: #ea580c;
 }
 
-.md-header,
-.md-tabs {
+.md-header {
     background-color: #facc15;
     color: #000000;
 }
+
+.md-tabs {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 
 .md-logo img {
     width: 50px !important;
     height: auto !important;
 
 }
+
