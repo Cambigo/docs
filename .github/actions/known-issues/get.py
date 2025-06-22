@@ -7,7 +7,7 @@ def fetch_known_issues():
     """Fetch issues labeled with specified label from the target repository."""
     token = os.environ.get('GITHUB_TOKEN')
     repository = os.environ.get('REPOSITORY', 'Cambigo/cambigo-flow')
-    label = os.environ.get('LABEL', 'known issues')
+    label = os.environ.get('LABEL', 'known issue')
     
     if not token:
         print("No GitHub token found, skipping known issues update")
