@@ -1,0 +1,39 @@
+name: 'Get Known Issues'
+description: 'Fetch known issues from Cambigo/cambigo-flow and update releases page'
+inputs:
+  github-token:
+    description: 'GitHub token for API access'
+    required: true
+  repository:
+    description: 'Repository to fetch issues from'
+    required: false
+    default: 'Cambigo/cambigo-flow'
+  label:
+    description: 'Label to filter issues by'
+    required: false
+    default: 'known issues'
+  releases-file:
+    description: 'Path to the releases markdown file'
+    required: false
+    default: 'docs/releases.md'
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      shell: bash
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    - name: Fetch known issues
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+        REPOSITORY: ${{ inputs.repository }}
+        LABEL: ${{ inputs.label }}
+        RELEASES_FILE: ${{ inputs.releases-file }}
+      run: |
+        python ${{ github.action_path }}/get.py
