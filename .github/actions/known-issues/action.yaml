@@ -11,7 +11,7 @@ inputs:
   label:
     description: 'Label to filter issues by'
     required: false
-    default: 'known issues'
+    default: 'known issue'
   releases-file:
     description: 'Path to the releases markdown file'
     required: false

@@ -30,7 +30,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         repository: 'Cambigo/cambigo-flow'
-        label: 'known issues'
+        label: 'known issue'
         releases-file: 'docs/releases.md'
     - name: Install dependencies.
       run: |
