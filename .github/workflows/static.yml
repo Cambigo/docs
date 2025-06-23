@@ -28,7 +28,7 @@ jobs:
     - name: Fetch known issues and update releases page
       uses: ./.github/actions/known-issues
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.ISSUES }}
         repository: 'Cambigo/cambigo-flow'
         label: 'known issue'
         releases-file: 'docs/releases.md'
