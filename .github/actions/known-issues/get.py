@@ -61,12 +61,14 @@ def update_releases_page(issues):
     
     if issues:
         known_issues_section = "\n## Known Issues\n\n"
+        known_issues_section += f"| Status      | Issue                                | Reported    |\n"
+        known_issues_section += f"|-------------|--------------------------------------|-------------|\n"
         for issue in issues:
             formatted_date = format_date(issue['created_at'])
             if issue['state'] == 'closed':
-                known_issues_section += f"- [x] {issue['title']} ({formatted_date})\n"
+                known_issues_section += f"| :material-check-decagram: Done | {issue['title']} | {formatted_date} |\n"
             else:
-                known_issues_section += f"- [ ] {issue['title']} ({formatted_date})\n"
+                known_issues_section += f"| :material-progress-wrench: Open | {issue['title']} | {formatted_date} |\n"
 
         known_issues_section += "\n"
     else:
