@@ -7,3 +7,4 @@ __pycache__/
 *.egg-info/
 site/
 .vscode/
+.github/actions/known-issues/.env

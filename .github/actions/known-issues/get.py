@@ -43,6 +43,12 @@ def update_releases_page(issues):
     """Update the releases.md file with known issues."""
     releases_path = os.environ.get('RELEASES_FILE', 'docs/releases.md')
     
+    # Debug: Print current working directory and file paths
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Looking for releases file at: {releases_path}")
+    print(f"Absolute path: {os.path.abspath(releases_path)}")
+    print(f"File exists: {os.path.exists(releases_path)}")
+    
     if not os.path.exists(releases_path):
         print(f"Releases file not found at {releases_path}")
         return
