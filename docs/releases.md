@@ -11,6 +11,3 @@ Stay updated with the latest news, tips, and insights on releases from the Cambi
 
 
 %%KNOWN_ISSUES%%
-
-
-
