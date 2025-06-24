@@ -1,4 +1,7 @@
 nav:
   - Home: index.md
+  - "*"
   - releases.md
   - Cambigo Website: https://cambigo.com
+
+ignore: "credits.md"

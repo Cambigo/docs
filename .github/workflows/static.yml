@@ -3,6 +3,8 @@ name: Deploy Cambigo Flow Documentation
 on:
   push:
     branches: ["main", "dev"]
+  schedule:
+    - cron: '0 0 * * 1,4'  # 6PM CST on Monday and Thursday (12AM UTC)
   workflow_dispatch:
 
 permissions:
