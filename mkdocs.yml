@@ -1,7 +1,7 @@
 site_name: Cambigo Documentation
 # docs_dir: ../your_docs_dir
 repo_url: https://github.com/Cambigo/docs
-site_url: https://docs.cambigo.com/
+site_url: https://support.cambigo.com/
 repo_name: Cambigo/docs
 edit_uri: blob/main/docs/
 theme:
