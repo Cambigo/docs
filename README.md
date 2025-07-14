@@ -1,6 +1,6 @@
-# Cambigo Documentation Website
+# Cambigo Support Website
 
-This is the repository for the Cambigo documentation website.
+This is the repository for the Cambigo Support website.
 
 To use the site, you should visit: [https://docs.cambigo.com](https://docs.cambigo.com)
 
