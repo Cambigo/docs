@@ -1,6 +1,10 @@
 Privacy Policy
 Information about how Cambigo collects, uses, and protects your personal data.
 
+!!! warning inline end "Under Development"
+
+    This policy is under development and is not yet finalized. Please check back later for the completed version.
+
 Last updated: June 22, 2025
 
 Introduction

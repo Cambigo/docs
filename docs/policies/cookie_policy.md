@@ -1,6 +1,10 @@
 Cookie Policy
 Information about how Cambigo uses cookies and similar technologies.
 
+!!! warning inline end "Under Development"
+
+    This policy is under development and is not yet finalized. Please check back later for the completed version.
+
 Last updated: June 22, 2025
 
 What Are Cookies
