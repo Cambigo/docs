@@ -2,7 +2,7 @@
 
 This is the repository for the Cambigo Support website.
 
-To use the site, you should visit: [https://docs.cambigo.com](https://docs.cambigo.com)
+To use the site, you should visit: [https://support.cambigo.com](https://support.cambigo.com)
 
 
 
