@@ -7,7 +7,7 @@ from datetime import datetime
 def fetch_known_issues():
     """Fetch issues labeled with specified label from the target repository."""
     token = os.environ.get('GITHUB_TOKEN')
-    repository = os.environ.get('REPOSITORY', 'Cambigo/cambigo-flow')
+    repository = os.environ.get('REPOSITORY', 'Cambigo/ala')
     label = os.environ.get('LABEL', 'known issue')
     
     if not token:

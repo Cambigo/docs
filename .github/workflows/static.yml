@@ -31,7 +31,7 @@ jobs:
       uses: ./.github/actions/known-issues
       with:
         github-token: ${{ secrets.ISSUES }}
-        repository: 'Cambigo/cambigo-flow'
+        repository: 'Cambigo/ala'
         label: 'known issue'
         releases-file: 'docs/releases.md'
     - name: Install dependencies.

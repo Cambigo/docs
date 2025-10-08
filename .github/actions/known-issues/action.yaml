@@ -1,5 +1,5 @@
 name: 'Get Known Issues'
-description: 'Fetch known issues from Cambigo/cambigo-flow and update releases page'
+description: 'Fetch known issues from Cambigo/ala and update releases page'
 inputs:
   github-token:
     description: 'GitHub token for API access'
@@ -7,7 +7,7 @@ inputs:
   repository:
     description: 'Repository to fetch issues from'
     required: false
-    default: 'Cambigo/cambigo-flow'
+    default: 'Cambigo/ala'
   label:
     description: 'Label to filter issues by'
     required: false
