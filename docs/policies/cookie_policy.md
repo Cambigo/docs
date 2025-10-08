@@ -11,6 +11,7 @@ Cookies are small text files stored on your device by a website or application. 
 
 ### Strictly Necessary Cookies
 These cookies are required for the Service to function.
+
 - **Clerk authentication cookies** maintain your signed-in session, tie browser requests to your Clerk account, and support security features such as multi-factor prompts.
 - **Security and throttling cookies** help prevent abuse, enforce view limits, and support audit logging when you access sharing links.
 
