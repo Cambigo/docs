@@ -1,69 +1,85 @@
-Terms of Service
-The terms and conditions that govern your use of Cambigo Flow.
+# Cambigo Terms of Service
 
-!!! warning inline end "Under Development"
+_Last updated: 2025-10-08_
 
-    This policy is under development and is not yet finalized. Please check back later for the completed version.
+These Terms of Service ("Terms") form a binding agreement between you and Informatics FYI, Inc. ("Cambigo", "we", "us", or "our") that governs your access to and use of the Cambigo application, APIs, documentation, and related services (collectively, the "Service"). By creating an account, accessing, or using the Service, you agree to be bound by these Terms. If you do not agree, do not use the Service.
 
-Last updated: June 22, 2025
+## 1. Eligibility
+You must be at least 18 years old (or the age of legal majority where you live) and have the authority to accept these Terms on behalf of yourself or the organization you represent. You are responsible for ensuring that your use of the Service complies with all laws and regulations that apply to you.
 
-Agreement to Terms
-By accessing and using Cambigo Flow ("the Application"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+## 2. Account Registration and Security
+The Service uses Clerk to provide authentication. You must provide accurate and complete registration information and keep it up to date. You are responsible for safeguarding your credentials, configuring multi-factor authentication where available, and notifying us immediately of any unauthorized use of your account. Cambigo is not liable for losses caused by your failure to secure your account.
 
-Description of Service
-Cambigo Flow is a client-side workflow management application that allows users to create, edit, and manage workflows locally in their web browser. The application:
+## 3. Service Description
+Cambigo helps teams capture, organize, and share operational flows and related insights. Core features include:
+- Creating and editing flows composed of nodes, groups, items, notes, and metadata
+- Sharing flows through revocable tokens with configurable expiration and view limits
+- Tracking audit events, change history, and automated tasks that support collaboration
 
-• Operates entirely in your web browser
+We continually improve the Service and may add, modify, or remove features at any time. When we make material changes, we will provide notice where required.
 
-• Stores all data locally on your device
+## 4. Beta, Preview, and Experimental Features
+Some functionality, including early-access to the system, may be labeled beta, preview, or experimental. Such features are provided "as is," may be subject to additional terms, and can change or end at any time. You assume all risk when using beta features, and it is recommended to download your flow documents as a backup.
 
-• Requires account registration for access to the user interface
+## 5. Your Content
+"Content" includes flows, metadata, files, annotations, agent tasks, and any other data you submit to the Service.
+- You retain all rights to your Content.
+- You grant Cambigo a worldwide, royalty-free license to host, store, reproduce, modify, and display your Content solely as needed to operate, support, and improve the Service, comply with law, and provide requested integrations.
+- You represent that you have all necessary rights to submit the Content and that it does not violate these Terms or any applicable law.
 
-• Does not transmit your workflow data to external servers
+## 6. Sharing Features and Responsibilities
+When you generate a sharing link, anyone with the link can access the associated flow until you revoke the token, it expires, or view limits are reached. You are responsible for:
+- Selecting appropriate expiration periods and view limits
+- Revoking tokens that should no longer grant access
+- Ensuring shared Content does not disclose confidential or regulated data without proper authorization
+- Controlling who receives the links permitting access to the flow document
 
-Use License
-Permission is granted to temporarily use Cambigo Flow for personal and commercial purposes. This is the grant of a license, not a transfer of title, and under this license you may not:
+Cambigo may monitor sharing usage to enforce security, audit events, and feature limits.
 
-• Modify or copy the application materials
+## 7. Acceptable Use
+You agree not to:
+- Reverse engineer, decompile, or create derivative works based on the Service except as allowed by applicable law
+- Interfere with or disrupt the integrity or performance of the Service, including attempting to gain unauthorized access to systems or data
+- Upload malicious code or use the Service to transmit spam, phishing, or other harmful content
+- Misrepresent your affiliation with any person or entity or use the Service in violation of third-party rights
+- Use the Service to process data subject to heightened legal protections (such as protected health information or government-classified data) unless you have obtained our prior written approval
 
-• Attempt to reverse engineer any software contained in the application
+## 8. Subscription Plans and Trials
+Cambigo may offer early-adopter plans, trials, or paid subscriptions. We will present applicable pricing, billing intervals, renewal terms, and cancellation options when you choose a plan. Fees are non-refundable except as required by law. You remain responsible for any taxes associated with your purchase.
 
-• Remove any copyright or other proprietary notations from the materials
+## 9. Third-Party Services
+The Service integrates with third-party providers, including Clerk for identity, Vercel for hosting and analytics, and other deployment targets such as Cloudflare, DigitalOcean, or Fly.io for related Services and Data Storage. Use of those services is subject to their respective terms. Cambigo is not responsible for third-party services we do not control.
 
-User Responsibilities
-As a user of Cambigo Flow, you are responsible for:
+## 10. Feedback
+If you send us comments, ideas, or suggestions, you grant Cambigo a perpetual, irrevocable, royalty-free license to use that feedback for any purpose without obligation to you.
 
-• Maintaining the security of your device and browser
+## 11. Privacy
+Our processing of personal information is described in the Cambigo Privacy Policy, which is incorporated into these Terms. By using the Service, you consent to the collection and use of your information as outlined in that policy.
 
-• Backing up your workflow data as needed
+## 12. Suspension and Termination
+We may suspend or terminate your access to the Service if you violate these Terms, pose a security risk, fail to pay fees when due, or if required by law. You may terminate these Terms by closing your account and ceasing all use of the Service. Upon termination, we may delete or restrict access to your Content, subject to applicable law and our retention obligations.  We may make changes to the Service offerings as Cambigo develops as a product, with no requirement to maintain Services from version to version.
 
-• Using the application in compliance with applicable laws
+## 13. Disclaimers
+THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE." CAMBIGO DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. We do not guarantee that the Service will be uninterrupted, error-free, or secure, or that it will meet your requirements.
 
-• Not using the application for any illegal or unauthorized purpose
+To the fullest extent permitted by applicable law, Informatics FYI, Inc. makes no warranties, either express or implied, about the Services. The Services are provided “as is” and “as available.” Informatics FYI, Inc. also disclaims any warranties of merchantability, fitness for a particular purpose and non-infringement. No advice or information, whether oral or written, obtained by you from Informatics FYI, Inc., shall create any warranty. Informatics FYI, Inc. makes no warranty or representation that the Services will: (a) be timely, uninterrupted or error-free; (b) meet your requirements or expectations; or (c) be free from viruses or other harmful components.
 
-• Understanding that data is stored locally and may be lost if browser data is cleared
+Under certain circumstances, some jurisdictions don't permit the disclaimers in this section, so they may not apply to you. However, the disclaimers apply to the fullest extent permitted by applicable law. You may have other statutory rights and nothing in this Agreement affects your statutory rights or rights under mandatory laws. The duration of statutorily required warranties, if any, shall be limited to the fullest extent permitted by applicable law.
 
-Data and Privacy
-All workflow data created and stored in Cambigo Flow remains on your local device. We do not collect, store, or have access to your workflow data. You retain full ownership and control of all content you create using the application. Please refer to our Privacy Policy for detailed information about data handling.
+## 14. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, CAMBIGO AND ITS AFFILIATES, DIRECTORS, EMPLOYEES, AND SUPPLIERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO THESE TERMS OR YOUR USE OF THE SERVICE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF OR RELATING TO THE SERVICE WILL NOT EXCEED THE GREATER OF TEN U.S. DOLLARS (US $10) OR THE AMOUNTS YOU PAID US FOR THE SERVICE DURING THE 3 MONTHS PRECEDING THE CLAIM.
 
-Disclaimer
-The materials in Cambigo Flow are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+## 15. Indemnification
+You will defend, indemnify, and hold harmless Cambigo, its affiliates, and their respective officers, directors, employees, and agents from and against all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys’ fees) arising out of or related to: (a) your Content; (b) your use of the Service; or (c) your breach of these Terms or violation of applicable law.
 
-Limitations
-In no event shall Cambigo or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use Cambigo Flow, even if Cambigo or a Cambigo authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+## 16. Governing Law and Dispute Resolution
+These Terms are governed by the laws of the United States and the State of Alabama in which Informatics FYI, Inc. is incorporated, without regard to conflict of law principles. The parties agree to the exclusive jurisdiction of the state and federal courts located in that jurisdiction, and you waive any objection to venue in those courts. Nothing in this section limits Cambigo’s ability to seek injunctive or equitable relief.
 
-Accuracy of Materials
-The materials appearing in Cambigo Flow could include technical, typographical, or photographic errors. We do not warrant that any of the materials are accurate, complete, or current. We may make changes to the materials at any time without notice.
+## 17. Changes to the Terms
+We may update these Terms to reflect new features, legal requirements, or business needs. If we make material changes, we will notify through the Service website before the changes take effect. Your continued use of the Service after the effective date constitutes acceptance of the updated Terms.
 
-Modifications
-We may revise these terms of service at any time without notice. By using Cambigo Flow, you are agreeing to be bound by the then current version of these terms of service.
+## 18. General
+If any provision of these Terms is held unenforceable, the remaining provisions will remain in full force. You may not assign or transfer these Terms without our prior written consent. Cambigo may assign these Terms in connection with a merger, acquisition, or sale of assets. These Terms, together with the Privacy Policy and any additional agreements you accept, constitute the entire agreement between you and Cambigo regarding the Service.
 
-Termination
-You may terminate your use of Cambigo Flow at any time by simply stopping use of the application and clearing your browser's local storage. These terms remain in effect until terminated by either party.
-
-Governing Law
-These terms and conditions are governed by and construed in accordance with applicable local laws, and you irrevocably submit to the exclusive jurisdiction of the courts in that state or location.
-
-Contact Information
-If you have any questions about these Terms of Service, please contact us through our support channels available in the application.
-
+## 19. Contact
+If you have questions about these Terms, contact us at support@cambigo.com.

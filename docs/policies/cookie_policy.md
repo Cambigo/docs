@@ -1,88 +1,37 @@
-Cookie Policy
-Information about how Cambigo uses cookies and similar technologies.
+# Cambigo Cookie Policy
 
-!!! warning inline end "Under Development"
+_Last updated: 2025-10-08_
 
-    This policy is under development and is not yet finalized. Please check back later for the completed version.
+This Cookie Policy explains how Informatics FYI, Inc. ("Cambigo", "we", "us") uses cookies and similar technologies when you visit or use the Cambigo application and related services (the "Service"). Please read this policy together with our Privacy Policy.
 
-Last updated: June 22, 2025
+## What Are Cookies?
+Cookies are small text files stored on your device by a website or application. They may be session cookies (deleted when you close your browser) or persistent cookies (stored until they expire or are deleted). We also use local storage and similar technologies to remember your settings.
 
-What Are Cookies
-Cookies are small text files that are stored on your device when you visit a website. They are widely used to make websites work more efficiently and to provide information to website owners about user preferences and behavior.
+## Cookies and Technologies We Use
 
-How Cambigo Uses Cookies and Local Storage
-Cambigo Flow is designed to operate primarily using your browser's local storage rather than traditional cookies. Our approach to data storage includes:
+### Strictly Necessary Cookies
+These cookies are required for the Service to function.
+- **Clerk authentication cookies** maintain your signed-in session, tie browser requests to your Clerk account, and support security features such as multi-factor prompts.
+- **Security and throttling cookies** help prevent abuse, enforce view limits, and support audit logging when you access sharing links.
 
-• Local Storage: We use browser local storage to save your workflow data, preferences, and application settings directly on your device.
+Because these cookies are essential, you cannot opt out of them while using the Service.
 
-• Essential Cookies: We may use essential cookies that are necessary for the basic functionality of the application, such as maintaining your session state.
+### Analytics and Performance Cookies
+We use Vercel Analytics to understand aggregate usage of Cambigo, diagnose performance issues, and prioritize improvements. Vercel Analytics may set first-party cookies or rely on other storage methods to count visits and feature interactions. The data is used in aggregate form and is not sold.
 
-• No Tracking Cookies: We do not use cookies for tracking, analytics, or advertising purposes.
+### Preferences and Local Storage
+Cambigo may store preferences (such as theme selection, UI layouts, or recent flow context) in local storage or similar browser APIs. You can delete these values at any time through your browser settings without affecting critical functionality, although doing so may reset your preferences and any unsynchronized flow documents.
 
-Types of Cookies We Use
-Essential Cookies
-These cookies are necessary for the application to function properly and cannot be disabled:
+## Managing Cookies
+Most browsers allow you to:
+- View the cookies stored on your device
+- Block cookies from specific sites
+- Delete cookies and local storage data
 
-• Application state management
+If you disable essential cookies, the Service may not function correctly and you may be unable to sign in. You can disable analytics cookies by using the controls provided in your browser or opt-out mechanisms that Vercel offers (if available for your region).
 
-• User interface preferences (theme, layout settings)
+## Updates to This Policy
+We may update this Cookie Policy to reflect changes in the cookies we use or to comply with legal requirements. The "Last updated" date above will change when we make revisions. We encourage you to review this policy periodically.
 
-• Session management for application functionality
-
-Functional Cookies
-These cookies enhance your experience by remembering your choices:
-
-• Language preferences
-
-• Display settings
-
-• Recently accessed workflows
-
-What We Don't Use
-Cambigo Flow does not use:
-
-• Analytics cookies
-
-• Advertising cookies
-
-• Social media tracking cookies
-
-• Third-party tracking technologies
-
-• Cross-site tracking mechanisms
-
-Managing Cookies and Local Storage
-You have control over cookies and local storage in several ways:
-
-Browser Settings
-Most browsers allow you to control cookies through their settings. You can:
-
-• Block all cookies
-
-• Delete existing cookies
-
-• Set preferences for specific websites
-
-• Receive notifications when cookies are set
-
-Local Storage Management
-You can clear local storage data through your browser's developer tools or by clearing your browsing data. Note that clearing local storage will remove all your Cambigo workflow data.
-
-Impact of Disabling Cookies
-While you can disable cookies in your browser, doing so may affect the functionality of Cambigo Flow. Essential cookies are required for the application to work properly. Disabling these may result in:
-
-• Loss of application settings
-
-• Inability to save preferences
-
-• Reduced functionality or performance
-
-Data Retention
-Essential cookies are typically session-based and are removed when you close your browser. Functional cookies and local storage data persist until you manually delete them or clear your browser data.
-
-Updates to This Policy
-We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page with a revised "Last updated" date.
-
-Contact Us
-If you have any questions about our use of cookies or this Cookie Policy, please contact us through our support channels available in the application.
-
+## Contact Us
+If you have questions about how we use cookies or other technologies, contact us at support@cambigo.com.

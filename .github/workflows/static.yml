@@ -1,4 +1,4 @@
-name: Deploy Cambigo Flow Documentation
+name: Deploy Cambigo Documentation
 
 on:
   push:
