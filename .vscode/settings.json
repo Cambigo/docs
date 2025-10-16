@@ -1,0 +1,9 @@
+{
+    "codeQL.githubDatabase.download": "never",
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#fff",
+        "titleBar.inactiveForeground": "#ffffffcc",
+        "titleBar.activeBackground": "#017911",
+        "titleBar.inactiveBackground": "#0b431f"
+    }
+}
